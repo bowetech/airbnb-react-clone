@@ -50,7 +50,7 @@ function Map({ searchResults }) {
 						</p>
 					</Marker>
 
-					// Show popup if clicked on a location icon
+					{/* Show popup if clicked on a location icon */}
 					{selectedLocation.long === result.long ? (
 						<Popup
 							onClose={() => setSelectedLocation({})}
